@@ -1,0 +1,44 @@
+
+
+a:active{
+  background-color:green;
+  color:cyan;
+}
+
+a:hover{
+  background-color:lightblue;
+  color:pink;
+}
+
+a:unactive{
+  background-color:purple;
+  color:lightpurple;
+}
+  body{
+    
+background-image:url("http://www.nasa.gov/sites/default/files/thumbnails/image/web_first_images_release.png");
+    
+  }
+
+h1, a{
+  color:white
+}
+
+*{
+  color:white
+
+}
+
+h1:first-letter{
+  font-size:2em
+}
+
+nav a {
+  text-decoration: none;
+  margin:25px;
+}
+
+a[target="_blank"]{
+  background-color: coral;
+  color:darkblue;
+}
